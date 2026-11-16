@@ -60,20 +60,17 @@ button:hover {
     color: #546154;
     background-color: rgb(231, 235, 239);
 }
+
 #result,
-#ability {
+#ability,
+#credit {
     font-weight: bold;
     margin-top: 15px;
+}
+
 .calculator {
     display: block;
     max-width: 500px;
     margin: 30px auto;
 }
 
-#result,
-#ability {
-    font-weight: bold;
-    margin-top: 15px;
-}
-
-}
