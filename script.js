@@ -45,7 +45,7 @@ function calculateAbility() {
     paymentAbility = maxCredit; // запоминаем для третьего окошка
 
     document.getElementById("ability").textContent =
-       `Средний доход за месяц: ${average.toFixed(2)} руб.`;
+        `Ваша платежеспособность: ${maxCredit.toFixed(2)} руб.`;
 }
 
 // ОКОШКО 3: максимальный размер кредита с процентной ставкой
